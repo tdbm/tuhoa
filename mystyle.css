@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 11.25rem;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+.slider-home_1 span{
+    color: #e8e8e8;
+    font-family: sans-serif;
+    font-size: 56px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+    letter-spacing: 5px;
+}
+.slider-home_1 p{
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0rem;
+}
+
+.slider-home_2 {
+    color: #ffffff;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+    letter-spacing: 5px;
+}
+.slider-home_2 p{
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#title{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+.read-more{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+
+
+
+
+.row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+        
+}
+.share{
+    height: 550px;
+}
+
+.col1{
+    background-image: url(images/Bg_ct_Home-1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.col2{
+    background-image: url(images/Bg_ct_Home-2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.col3{
+    background-image: url(images/Bg_ct_Home-3.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hovtxt {
+    background:black;
+    color: blanchedalmond;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+.hovtxt p{
+
+    font-size: 80px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.hovtxt:hover{
+    background:black;
+    color: blanchedalmond;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.modal-content{
+    height: 250px;
+    width: 900px;
+    text-align: center;
+    
+}
+.modal-body{
+    padding-left: 60px;
+}
+.modal-footer{
+    text-align: center;
+}
+.project{
+    background-image: url(/images/Bg-Project.jpg);
+    background-repeat: none;
+    background-size: cover;
+    
+}
+.project .container-sm{
+    min-height: 850px;
+    background:rgb(17, 18, 19);
+    opacity: 0.7;
+}
+.project .container-sm p{
+    color: seashell;
+    opacity: 1;
+}
+.newsletters{
+    background-image: url(/images/Bg_News.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.newsletters .container-sm{
+    min-height: 850px;
+    background:rgb(17, 18, 19);
+    opacity: 0.7;
+}
+.research{
+    background-image: url(/images/Bg_Research.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.research .container-sm{
+    min-height: 850px;
+    background:rgb(17, 18, 19);
+    opacity: 0.7;
+}
+.contact{
+    background-image: url(/images/Bg_Contact.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+}
+.contact .container-sm{
+    min-height: 1000px;
+}
+
+
+
+
+.stories{
+    background: rgb(10,61,64);
+}
+.stories .container  {
+    background: rgb(232,232,232);
+}
+.stories-blog {
+    background-image: url(images/Bg-blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.stories-blog .container  {
+    background-color: white;
+    height: 100%;
+}
+.about-page{
+    
+    background-image: url(/images/Bg_About.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.about-page .container-fluid {
+    
+    
+}
+.about-page .container-fluid .row1 {
+    padding-top: 400px;
+    text-transform:uppercase;
+    height: 800px;
+}
+
+
+.about-page .container-fluid .row2 {
+    background:whitesmoke;
+    height: auto;
+}
+.container-fluid img{
+    border-radius: 50% 50%;
+}
